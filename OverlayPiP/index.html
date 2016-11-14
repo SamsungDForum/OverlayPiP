@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel='stylesheet' type='text/css' href='./style.css'/>
+    <script type='text/javascript' src='./main.js'></script>
+</head>
+<body onload='main();' onkeydown='handleKeydown(event);'> 
+	<h1>Overlay PiP</h1>
+	<h2>This is Overlay PiP. Please click buttons.</h2>
+	<br>
+
+	<table>
+		<tr>
+			<td><b>Function</b></td>
+			<td><b>Play action</b></td>
+		</tr>
+		<tr>
+			<td>tizen.tvwindow.show BEHIND</td>
+			<td><input id='button1' type='button' onclick='function1();' onmouseover='moveFocus(1);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>tizen.tvwindow.hide</td>
+			<td><input id='button2' type='button' onclick='function2();' onmouseover='moveFocus(2);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>tizen.tvchannel.tuneUp</td>
+			<td><input id='button3' type='button' onclick='function3();' onmouseover='moveFocus(3);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>tizen.tvchannel.tuneDown</td>
+			<td><input id='button4' type='button' onclick='function4();' onmouseover='moveFocus(4);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>Log Clear</td>
+			<td><input id='button5' type='button' onclick='clearLog();' onmouseover='moveFocus(5);' value='Click'></td>
+		</tr>
+	</table>
+
+	<br>
+	<h2>Result</h2>
+	<div id='result'></div>
+	<div id='returnIcon' onclick='clickReturn();'></div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+	color: white;
+}
+
+body {   
+    margin: 20px;
+}
+
+table {
+	font-size: 20px;
+	
+	border: 1px solid white;
+}
+
+tr {
+	text-align: center;
+}
+
+td {
+	padding: 10px;
+	
+	text-align: center;
+	
+	border: 1px solid white;
+}
+
+#button1, #button2, #button3, #button4, #button5 {
+	width: 100px;
+	height: 30px;
+}
+
+#result {
+	font-size: 20px;
+}
+
+#returnIcon {
+	position: absolute;
+	
+	left: 1840px;
+	top: 1012px;
+	
+	width: 80px;
+	height: 68px;
+
+	background-image: url('./returnIcon.png');
+	background-repeat: no-repeat;
+
+	z-index: 100;
+}
+
+.dim {
+	position: absolute;
+	
+	left: 0px;
+	top: 0px;
+	
+	width: 1920px;
+	height: 1080px;
+
+	background-image: url('./dim.png');
+	background-repeat: repeat;
+}
+
+.exitPopup {
+	position: absolute;
+	
+	left: 775px;
+	top: 370px;
+	
+	width: 370px;
+	height: 90px;
+
+	padding: 20px;
+
+	font-size: 40px;
+
+	background-color: #bdbdbd;
+}
+
+#yesButton {
+	position: absolute;
+
+	left: 90px;
+	top: 80px;
+
+	width: 100px;
+	height: 30px;
+
+	font-size: 20px;
+}
+
+#noButton {
+	position: absolute;
+
+	left: 220px;
+	top: 80px;
+
+	width: 100px;
+	height: 30px;
+
+	font-size: 20px;
+}
